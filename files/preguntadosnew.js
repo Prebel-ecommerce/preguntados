@@ -166,7 +166,7 @@ function girar(){
         contador = 0;
         document.querySelector('.contador').innerHTML = 'ACIERTOS: 0';
       }else if(result.dismiss == 'cancel'){
-        navigator.clipboard.writeText('BEAUTYCOL15')
+        navigator.clipboard.writeText('BEAUTYWIN')
         .then(() => {
           Swal.fire('Cupón copiado!', '', 'success');
           giros = 0; 
@@ -201,7 +201,7 @@ function girar(){
         contador = 0;
         document.querySelector('.contador').innerHTML = 'ACIERTOS: 0';
       }else if(result.dismiss == 'cancel'){
-        navigator.clipboard.writeText('BEAUTY15')
+        navigator.clipboard.writeText('BEAUTYCOL15')
         .then(() => {
           Swal.fire('Cupón copiado!', '', 'success');
           giros = 0; 
@@ -236,7 +236,7 @@ function girar(){
         contador = 0;
         document.querySelector('.contador').innerHTML = 'ACIERTOS: 0';
       }else if(result.dismiss == 'cancel'){
-        navigator.clipboard.writeText('BEAUTYWIN')
+        navigator.clipboard.writeText('BEAUTY15')
         .then(() => {
           Swal.fire('Cupón copiado!', '', 'success');
           giros = 0; 
@@ -271,7 +271,7 @@ function girar(){
         contador = 0;
         document.querySelector('.contador').innerHTML = 'ACIERTOS: 0';
       }else if(result.dismiss == 'cancel'){
-        navigator.clipboard.writeText('BEAUTYWIN')
+        navigator.clipboard.writeText('BEAUTY15')
         .then(() => {
           Swal.fire('Cupón copiado!', '', 'success');
           giros = 0; 
